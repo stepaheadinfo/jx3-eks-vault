@@ -6,8 +6,8 @@ spec:
     schedule: ""
   cluster:
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - abhishekghode
+    environmentGitOwner: abhishekghode
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -25,6 +25,6 @@ spec:
       enabled: false
       production: false
   repository: nexus
-  secretStorage: vault
+  secretStorage: local
   vault: {}
   webhook: lighthouse
