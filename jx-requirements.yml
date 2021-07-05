@@ -25,6 +25,6 @@ spec:
       enabled: false
       production: false
   repository: nexus
-  secretStorage: local
+  secretStorage: vault
   vault: {}
   webhook: lighthouse
